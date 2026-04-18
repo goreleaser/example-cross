@@ -22,10 +22,15 @@ you've been captured!!!!
 ```
 Cross-compiles for targets:
  - Darwin/amd64
- - Linux/armhf (Raspberry Pi 4 aka RPI4)
- - Linux/amd64 (should not be any issue to add this example)
 
-This example is based on real working solution where Macbook is dev machine and RPI4 is end target. Cross-compilation is set for both darwin and linux to ensure nothing is broken with new commits
+> [!NOTE]
+> The Linux/armhf target is currently disabled. The bundled sysroot ships
+> Raspberry Pi Buster glibc (~2.31), which is incompatible with the
+> gcc-13 / glibc-2.36 link symbols emitted by the modern
+> `goreleaser-cross` toolchain. To re-enable it, the sysroot needs to be
+> rebuilt against a newer Linux base.
+
+This example is based on real working solution where Macbook is dev machine and RPI4 is end target.
  
 ## Sysroot
 Sysroots are located in [separate repo](https://github.com/goreleaser/goreleaser-cross-example-sysroot) and added as submodule to current repo 
