@@ -38,6 +38,6 @@ changelog:
 release:
   github:
     owner: goreleaser
-    name: golang-cross-example
+    name: example-cross
   prerelease: auto
   draft: false
