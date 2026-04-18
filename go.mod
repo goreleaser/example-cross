@@ -1,6 +1,6 @@
 module github.com/goreleaser/goreleaser-cross-example
 
-go 1.25.0
+go 1.26
 
 require (
 	github.com/eliukblau/pixterm v1.3.2
