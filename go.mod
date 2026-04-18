@@ -6,7 +6,7 @@ require (
 	github.com/eliukblau/pixterm v1.3.2
 	github.com/lucasb-eyer/go-colorful v1.4.0
 	github.com/notifai/ftdi v0.1.0
-	gocv.io/x/gocv v0.29.0
+	gocv.io/x/gocv v0.24.0
 	golang.org/x/crypto v0.50.0
 )
 
