@@ -1,5 +1,5 @@
 PACKAGE_NAME          := github.com/goreleaser/goreleaser-cross-example
-GOLANG_CROSS_VERSION  ?= v1.19.5
+GOLANG_CROSS_VERSION  ?= v1.26.2
 
 SYSROOT_DIR     ?= sysroots
 SYSROOT_ARCHIVE ?= sysroots.tar.bz2
