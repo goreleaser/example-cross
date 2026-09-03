@@ -9,6 +9,9 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
+    ignore:
+      # GoCV 0.25+ requires a newer OpenCV than the bundled 4.4 sysroot.
+      - dependency-name: "gocv.io/x/gocv"
     groups:
       all:
         patterns:
